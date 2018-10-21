@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+  db:
+    build: ./db
+    ports:
+      - 5123:5432
+    volumes:
+      - ./volumes/postgresql:/var/lib/postgresql/data
+    environment:
+      PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+      POSTGRES_ADMIN: admin
+
+  demolas:
+    build: .
+    ports: 
+      - 80:5000
+    command: ["flask", "run", "--host=0.0.0.0"]

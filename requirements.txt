@@ -1,0 +1,12 @@
+certifi==2018.10.15
+Click==7.0
+enum34==1.1.6
+Flask==1.0.2
+ItsDangerous==1.0.0
+Jinja2==2.10
+MarkupSafe==1.0
+pipenv==2018.10.13
+typing==3.6.6
+virtualenv==16.0.0
+virtualenv-clone==0.4.0
+Werkzeug==0.14.1
