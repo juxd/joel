@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 flask = "*"
+tox = "*"
+pytest = "*"
+pre-commit = "*"
 
 [dev-packages]
 

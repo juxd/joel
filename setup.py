@@ -1,0 +1,34 @@
+from distutils.core import setup
+
+setup(
+    name='joel',
+    version='0.1.0',
+    author='ju',
+    description='joel',
+    install_requires=[
+        'Click==7.0',
+        'Flask==1.0.2',
+        'ItsDangerous==1.0.0',
+        'Jinja2==2.10',
+        'MarkupSafe==1.0',
+        'PyYAML==3.13',
+        'Werkzeug==0.14.1',
+        'aspy.yaml==1.1.1',
+        'atomicwrites==1.2.1',
+        'attrs==18.2.0',
+        'cached-property==1.5.1',
+        'cfgv==1.1.0',
+        'filelock==3.0.9',
+        'identify==1.1.7',
+        'more-itertools==4.3.0',
+        'nodeenv==1.3.2',
+        'pluggy==0.8.0',
+        'pre-commit==1.11.2',
+        'py==1.7.0',
+        'pytest==3.9.1',
+        'six==1.11.0',
+        'toml==0.10.0',
+        'tox==3.5.2',
+        'virtualenv==16.0.0',
+    ]
+)
